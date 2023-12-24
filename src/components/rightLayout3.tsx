@@ -26,22 +26,7 @@ const RightLayout3=()=>{
                 <img src={require("../images/i17.png")} alt="facebook" />
              </a>
             
-            {/* <Icons iconNumber={4} />
-            <Icons iconNumber={5} />
-            <Icons iconNumber={6} />
-            <Icons iconNumber={7} />
-            <Icons iconNumber={8} />
-            <Icons iconNumber={9} />
-            <Icons iconNumber={10} />
-            <Icons iconNumber={11} />
-            <Icons iconNumber={12} /> 
-             <Icons iconNumber={13} />
-            <Icons iconNumber={14} />
-            <Icons iconNumber={15} />
-            <Icons iconNumber={16} />
-            <Icons iconNumber={17} />
-            <Icons iconNumber={18} />
-            <Icons iconNumber={19} /> */}
+            
         
         
            
