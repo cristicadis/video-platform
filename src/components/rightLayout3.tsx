@@ -2,6 +2,8 @@ import React from 'react';
 import Icons from './icons';
 import SimpleCheckBox from './simpleCheck';
 import { styled } from 'styled-components';
+import lines from './../images/lines.png'
+
 
 const RightLayout3=()=>{
     return <div className="rightSideDiv kjdsfkn-ajdnkw">
@@ -11,10 +13,39 @@ const RightLayout3=()=>{
       </button>
     </div>
     <Wrapper>
-        <div className='main'>
+        <div className='first-side'>
             <h3>Recruit</h3>
             <h2>Slick video onboarding for your recruitment workflow</h2>
             <p><span>VideoInterviews</span> provide a simple solution for incorporating video into your recruitment workflow. Simply create your Asker with a set of preset or customised questions and share!</p>
+        </div>
+        <div className='second-side'>
+            <img className='lines' src={require("../images/lines.png")} alt="lines"/>
+            <img className='askerpic' src={require("../images/askerpic.png")} alt="askerpic"/>
+             
+             <a href='#' className='facebook-img'>
+                <img src={require("../images/i17.png")} alt="facebook" />
+             </a>
+            
+            {/* <Icons iconNumber={4} />
+            <Icons iconNumber={5} />
+            <Icons iconNumber={6} />
+            <Icons iconNumber={7} />
+            <Icons iconNumber={8} />
+            <Icons iconNumber={9} />
+            <Icons iconNumber={10} />
+            <Icons iconNumber={11} />
+            <Icons iconNumber={12} /> 
+             <Icons iconNumber={13} />
+            <Icons iconNumber={14} />
+            <Icons iconNumber={15} />
+            <Icons iconNumber={16} />
+            <Icons iconNumber={17} />
+            <Icons iconNumber={18} />
+            <Icons iconNumber={19} /> */}
+        
+        
+           
+            
         </div>
        
     </Wrapper>
@@ -24,14 +55,18 @@ const RightLayout3=()=>{
 
 const Wrapper = styled.section`
 display: flex;
+align-items: center;
+flex-direction: column;
+gap:20px;
 justify-content: center;
+  
 
-
-.main{
+.first-side{
+    margin-top: 15vh;
     display: flex;
     flex-direction: column;
-    width: 70%;
-    gap:10px;
+    width: 75%;
+    gap:8px;
    
 h3{
     font-weight: 900;
@@ -56,6 +91,35 @@ p{
     }
 }
 }
+.second-side {
+    
+    height: 300px;
+    position: relative;
+    width: 75%;
+    overflow: hidden; 
+    .lines {  
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        position: absolute;   
+    }
+    .askerpic {   
+        height: auto;
+        position: absolute;
+        top:50%;
+        left:48%;
+        transform:translate(-50%, -50%);     
+    }
+    .facebook-img{
+        position: absolute;
+        right: 20%;
+        top:20%
+
+    }
+}
+    
+    
+
 
 `
 export default RightLayout3;
