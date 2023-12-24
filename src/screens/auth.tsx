@@ -9,6 +9,9 @@ import BackButton from "../components/Auth/backButton";
 import TestiMonials from "../components/Auth/Carousel";
 import VideoForm from "../components/Home/Video";
 import RightLayout3 from "../components/rightLayout3";
+import RightLayout4 from "../components/rightLayout4";
+
+
  
 
 function Auth({mainScreen,setMainScreen}:{mainScreen:number,setMainScreen:any}) {
@@ -51,7 +54,7 @@ function Auth({mainScreen,setMainScreen}:{mainScreen:number,setMainScreen:any}) 
         )}
         <BottomMenu mainScreen={mainScreen} setMainScreen={setMainScreen} />
       </div>
-      <RightLayout3 />
+      <RightLayout4 />
     </div>
   );
 }

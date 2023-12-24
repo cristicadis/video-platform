@@ -1,9 +1,6 @@
-import React from 'react';
 import Icons from './icons';
-import SimpleCheckBox from './simpleCheck';
-import { styled } from 'styled-components';
-import lines from './../images/lines.png'
 import Wrapper from '../css/rightLayout3';
+import { RightLayoutText } from './rightLayoutText';
 
 const RightLayout3=()=>{
     return <div className="rightSideDiv kjdsfkn-ajdnkw">
@@ -13,11 +10,7 @@ const RightLayout3=()=>{
       </button>
     </div>
     <Wrapper>
-        <div className='first-side'>
-            <h3>Recruit</h3>
-            <h2>Slick video onboarding for your recruitment workflow</h2>
-            <p><span>VideoInterviews</span> provide a simple solution for incorporating video into your recruitment workflow. Simply create your Asker with a set of preset or customised questions and share!</p>
-        </div>
+        <RightLayoutText />
         <div className='second-side'>
             <div className='container'>
                 <img className='lines' src={require("../images/lines.svg").default} alt="lines"/>
