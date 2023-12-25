@@ -59,6 +59,7 @@ body {
 .rightSideDiv {
   background-color: #f1f6ff;
   border-radius: 14px;
+  overflow: hidden;
 }
 .topSectionDiv h1 {
   color: #0f0222;
