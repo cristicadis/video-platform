@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 
 const RightLayout6=()=>{
-    return <div className="rightSideDiv kjdsfkn-ajdnkw">
+    return <div className="rightSideDiv1 kjdsfkn-ajdnkw">
     <div className="d-flex justify-content-end">
       <button className="btn no-shadow">
         <Icons iconNumber={1} />

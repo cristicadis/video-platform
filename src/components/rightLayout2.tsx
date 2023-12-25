@@ -2,8 +2,8 @@ import React from 'react';
 import Icons from './icons';
 import SimpleCheckBox from './simpleCheck';
 
-const RightLayout=()=>{
-    return <div className="rightSideDiv kjdsfkn-ajdnkw">
+const RightLayout2=()=>{
+    return <div className="rightSideDiv1 kjdsfkn-ajdnkw">
     <div className="d-flex justify-content-end">
       <button className="btn no-shadow">
         <Icons iconNumber={1} />
@@ -37,4 +37,4 @@ const RightLayout=()=>{
    </div>
   </div> 
 }
-export default RightLayout;
+export default RightLayout2;

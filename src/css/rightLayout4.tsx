@@ -9,11 +9,11 @@ justify-content: center;
   
 
 .first-side{
-    margin-top: 15vh;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     width: 65%;
-    gap:4px;
+    gap:10px;
    
 h3{
     font-weight: 900;
@@ -21,17 +21,19 @@ h3{
     line-height: 21.8px;
     color:#7685FE4D;
     text-transform: uppercase;
+    letter-spacing: 0.7px;
 } 
 h2{
     font-weight: 700;
     font-size: 32px;
-    line-height: 37.5px;
     color: #000;
+    letter-spacing: 0.5px;
 }   
 p{
     font-weight: 400;
-    font-size:12px;
-    line-height: 18.68px;
+    font-size:14px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
     span{
         font-weight: 700;    
     }

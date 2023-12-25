@@ -2224,3 +2224,16 @@ fill-opacity: 1;
    color: rgba(84, 104, 255, 0.90)!important;
   
   }
+
+    .slick-slider {
+      width: 50%;
+    }
+
+     
+                .rightSideDiv1 {
+                  background-color: #f1f6ff;
+                  border-radius: 14px;
+                  overflow: hidden;
+                  width: 50%;
+                  height: 100%;
+                }

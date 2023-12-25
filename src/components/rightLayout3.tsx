@@ -2,7 +2,7 @@ import Icons from './icons';
 import Wrapper from '../css/rightLayout3';
 
 const RightLayout3=()=>{
-    return <div className="rightSideDiv kjdsfkn-ajdnkw">
+    return <div className="rightSideDiv1 kjdsfkn-ajdnkw">
     <div className="d-flex justify-content-end">
       <button className="btn no-shadow">
         <Icons iconNumber={1} />
@@ -13,7 +13,7 @@ const RightLayout3=()=>{
             <h3>Recruit</h3>
             <h2>Slick video onboarding for your recruitment workflow</h2>
             <p><span>VideoInterviews</span> provide a simple solution for incorporating video into your recruitment workflow. Simply create your Asker with a set of preset or customised questions and share!</p>
-        </div>;
+        </div>
 
         <div className='second-side'>
             <div className='container'>

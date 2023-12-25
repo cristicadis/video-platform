@@ -13,6 +13,7 @@ import RightLayout4 from "../components/rightLayout4";
 import RightButtons from "../components/RightButtons";
 import RightLayout5 from "../components/rightLayout5";
 import RightLayout6 from "../components/rightLayout6";
+import AnimationRightLayout from "../components/animationRightLayout";
 
 
  

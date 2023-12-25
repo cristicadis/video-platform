@@ -9,11 +9,11 @@ justify-content: center;
   
 
 .first-side{
-    margin-top: 15vh;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     width: 65%;
-    gap:4px;
+    gap:10px;
    
 h3{
     font-weight: 900;
@@ -21,31 +21,33 @@ h3{
     line-height: 21.8px;
     color:#7685FE4D;
     text-transform: uppercase;
+    letter-spacing: 0.7px;
 } 
 h2{
     font-weight: 700;
     font-size: 32px;
-    line-height: 37.5px;
     color: #000;
+    letter-spacing: 0.5px;
 }   
 p{
     font-weight: 400;
-    font-size:12px;
-    line-height: 18.68px;
+    font-size:14px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
     span{
         font-weight: 700;    
     }
 }
 }
 .second-side { 
-    width: 75%;
-    overflow: hidden; 
+    
+    width: 65%;
     .container{
         width: 295px;
-        margin: 40px 70px;
+        margin: 40px;
         position: relative;
         height: 219px;
-        padding: 0;  
+        
         
     .lines {  
         width: 100%;  
@@ -58,23 +60,23 @@ p{
         position: absolute;
         width: 50%;
         top:50%;
-        left:47%;
+        left:50%;
         transform:translate(-50%, -50%);     
     }
     .facebook-img {
         position: absolute;
-        right: -1%;
+        right: -5%;
         top:14%;   
     }
     .chart-img {
         position: absolute;
         top:-18%;
-        right:15%;
+        right:11%;
     }
     .msg-img {
         position: absolute;
         top:38%;
-        right: -15%;
+        right: -19%;
     }
     .google-img{
         position: absolute;
@@ -84,22 +86,22 @@ p{
     .share-img{
         position: absolute;
         bottom: -20%;
-        right: 15%;
+        right: 11%;
     }
     .linkedin-img {
         position: absolute;
         top:10%;
-        left: -7%;
+        left: -3%;
     }
     .share-blue-img {
         position: absolute;
         top: 38%;
-        left: -15%;
+        left: -11%;
     }
     .caminoc {
         position: absolute;
         top:70%;
-        left: -3%;
+        left: 1%;
     }
     }   
 }
