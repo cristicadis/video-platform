@@ -58,7 +58,7 @@ function Auth({mainScreen,setMainScreen}:{mainScreen:number,setMainScreen:any}) 
         )}
         <BottomMenu mainScreen={mainScreen} setMainScreen={setMainScreen} />
       </div>
-      <RightLayout6 />
+      <AnimationRightLayout />
     </div>
   );
 }

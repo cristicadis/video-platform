@@ -12,12 +12,13 @@ import RightLayout6 from "./rightLayout6";
 const AnimationRightLayout = () => {
 
     const settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       fade:true,
       speed: 500,
+      arrows: false,
       autoplay:true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 5000,
       slidesToShow: 1,
       slidesToScroll: 1,
       
