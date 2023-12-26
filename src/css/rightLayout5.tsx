@@ -4,16 +4,21 @@ const Wrapper = styled.section`
 display: flex;
 align-items: center;
 flex-direction: column;
-gap:20px;
 justify-content: center;
+height: 90%;
+align-content: center;
 
-    
+ 
+
 .first-side{
-    margin-top: 60px;
     display: flex;
     flex-direction: column;
     width: 65%;
     gap:10px;
+    justify-content: center;
+    height: 100%;
+    align-content: center;
+    height: 50%;
    
 h3{
     font-weight: 900;
@@ -42,14 +47,27 @@ p{
 .second-side {
     position: relative;
     width: 100%;
-    
+    height: 50%;
   img{
     position: absolute;
-    width: 60%;
+    width: 70%;
     height: auto;
     right: -10%;
-    top:-100px;
+    top:-80px;
     }
+}
+
+@media (max-width: 1080px) {
+    
+    .first-side{
+        width: 80%;
+    }
+}
+@media (max-width: 1023px) {
+  .second-side img {
+    top: 0;
+  }
+    
 }
 
 `

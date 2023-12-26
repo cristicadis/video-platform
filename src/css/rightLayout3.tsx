@@ -4,16 +4,20 @@ const Wrapper = styled.section`
 display: flex;
 align-items: center;
 flex-direction: column;
-gap:20px;
 justify-content: center;
+height: 90%;
+align-content: center;
   
 
 .first-side{
-    margin-top: 60px;
+
     display: flex;
     flex-direction: column;
     width: 65%;
     gap:10px;
+    height: 50%;
+    justify-content: center;
+    
    
 h3{
     font-weight: 900;
@@ -40,11 +44,14 @@ p{
 }
 }
 .second-side { 
-    
-    width: 65%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     .container{
         width: 295px;
         margin: 40px;
+        margin-left: 25px;
         position: relative;
         height: 219px;
         

@@ -4,16 +4,18 @@ const Wrapper = styled.section`
 display: flex;
 align-items: center;
 flex-direction: column;
-gap:20px;
 justify-content: center;
+height: 90%;
+align-content: center;
   
 
 .first-side{
-    margin-top: 60px;
     display: flex;
     flex-direction: column;
     width: 65%;
     gap:10px;
+    height: 50%;
+    justify-content: center;
    
 h3{
     font-weight: 900;
@@ -40,8 +42,11 @@ p{
 }
 }
 .second-side {
-    width: 65%;
-    overflow: hidden; 
+    height: 50%;
+    justify-content: center;
+    width: 75%;
+    
+    
     .container {
         display: flex;
         justify-content: center;
@@ -50,22 +55,38 @@ p{
         padding: 0;
         .first {
             display: flex;
-            justify-content: flex-start;
+            justify-content: center;
             .card-1{
                 transform: translateY(20%);
             }
         }
         .second {
+            justify-content: center;
             display: flex;
             .card-3{
             transform: translateY(20%);
         }
-        }
-        
-        
+       
+         }
+    }
+}
+@media (max-width: 1080px) {
+    .container {
+        transform: scale(0.9);
+    }
+    .first-side{
+        width: 80%;
+    }
+}
+@media (max-width: 1023px) {
+    .container {
+        transform: scale(0.8);
     }
     
 }
+
+
+
 
 `
 

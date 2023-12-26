@@ -28,7 +28,13 @@ const RightLayout6=()=>{
                 <img className='play-text' src={require("../images/playtext.svg").default} alt="play-text" />
                 <img className='share-text' src={require("../images/sharetext.svg").default} alt="share-text" />
                 <img className='create-text' src={require("../images/createtext.svg").default} alt="create-text" />
-
+                <div className="point point-1"></div>
+                <div className="point point-2"></div>
+                <div className="point point-3"></div>
+                <div className="point point-4"></div>
+                <div className="point point-5"></div>
+                <div className="point point-6"></div>
+        
             </div>     
             
         </div>    
